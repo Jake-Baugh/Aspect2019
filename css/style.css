@@ -182,7 +182,7 @@ body {
 
 p, .paragraph {
   font-weight: 400;
-  color: #666;
+  color: #111;
   font-size: 14px;
   line-height: 25px;
   font-family: "Open Sans", sans-serif;
@@ -331,6 +331,24 @@ ul {
   margin: 0px;
 }
 
+ul.contractors {
+  list-style: none;
+  padding-left:0px;
+}
+
+ul.contractors li {
+padding-left        : 50px;
+  background-image    : url('../images/icons/check-mark-white.png');
+  background-position : 5px 5px;
+  background-repeat   : no-repeat;
+  margin-bottom: 20px;
+}
+
+ul.contractors li:last-child {
+    background-image    : url('../images/icons/cv_white.png');
+  }
+  
+
 img {
   vertical-align: middle;
   border: 0;
@@ -424,7 +442,7 @@ button {
   position: absolute;
   top: 0;
   width: 1920px;
-  height: 700px;
+  min-height: 700px;
   background: rgba(0,0,0,0.6);
 }
 
@@ -721,6 +739,14 @@ button {
   display: inline-block;
 }
 
+/* 18. squre icon */
+.service-icon {
+  height: 70px;
+  text-align: center;
+  display: inline-block;
+}
+
+
 /* team social icon */
 .social-icon-lg {
   height: 50px;
@@ -759,7 +785,7 @@ button {
 }
 
 .text-primary {
-  color: #e84444 !important;
+  color: #6076bd !important;
 }
 
 .bg-facebook {
@@ -1404,7 +1430,7 @@ button {
     z-index: 2;
   }
   .hero-content {
-    margin-top:30px;
+    margin-top: 10px;
   }
 }
 
@@ -1552,7 +1578,11 @@ button {
 /* card */
 
 .card {
-  min-height: 300px;margin: 40px;
+  min-height: 300px;
+}
+
+.card-row .card {
+  min-height:340px;
 }
 
 .card-img-wrapper {
