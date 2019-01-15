@@ -1585,6 +1585,10 @@ button {
   min-height:340px;
 }
 
+.card-row-services .card {
+  min-height:300px;
+}
+
 .card-img-wrapper {
   position: relative;
 }
