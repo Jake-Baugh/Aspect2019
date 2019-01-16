@@ -447,15 +447,94 @@ button {
   top: 0;
   width: 1920px;
   min-height: 700px;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.4);
 }
 
-@media (min-width: 991px) {
+@media (min-width: 300px) {
+  #home-banner {
+    background-position-x: 700px;
+  }
+  #rr-banner {
+    background-position-x: 600px;
+  }
+  #bs-banner {
+    background-position-x: 510px;
+  }
+  #contact-banner {
+    background-position-x: 600px;
+  }
+}
+@media (min-width: 640px) {
+  #home-banner {
+    background-position-x: 800px;
+  }
+  #rr-banner {
+    background-position-x: 850px;
+  }
+  #bs-banner {
+    background-position-x: 900px;
+  }
+  #contact-banner {
+    background-position-x: 900px;
+  }
   .overlay-banner {
     background: #6176bd;
     transform: skew(-20.25deg);
     right: 50%;
   }
+}
+
+@media (min-width: 768px) {
+  #home-banner {
+    background-position-x: -500px;
+  }
+  #rr-banner {
+    background-position-x: 930px;
+  }
+  #bs-banner {
+    background-position-x: 950px;
+  }
+  #contact-banner {
+    background-position-x: 980px;
+  }
+.container {
+max-width: 840px;
+}
+}
+@media (min-width: 992px) {
+  #home-banner {
+    background-position-x: -180px;
+  }
+  #rr-banner {
+    background-position-x: 1200px;
+  }
+  #bs-banner {
+    background-position-x: 1150px;
+  }
+  #contact-banner {
+    background-position-x: 1150px;
+  }
+  .container {
+  max-width: 960px;
+  }
+  }
+  
+@media (min-width: 1200px){
+  #home-banner {
+    background-position-x: 0px;
+  }
+  #rr-banner {
+    background-position-x: 0px;
+  }
+  #bs-banner {
+    background-position-x: 0px;
+  }
+  #contact-banner {
+    background-position-x: 0px;
+  }
+.container {
+max-width: 1140px;
+}
 }
 
 .overlay::before {
@@ -1261,6 +1340,12 @@ button {
   background-position: center center;
   background-size: cover;
   outline: 0;
+}
+
+.hero-content h4,
+.hero-content h3,
+.hero-content p {
+  color:#fff !important;
 }
 
 .hero-slider .prevArrow,
