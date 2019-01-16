@@ -1681,6 +1681,7 @@ max-width: 1140px;
 
 .border-blue {
   border-color: #6076bd !important;
+  min-height:400px;
 }
 
 .card-img-wrapper {
