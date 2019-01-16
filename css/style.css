@@ -1591,6 +1591,11 @@ button {
 
 .card-row-services .card {
   min-height:300px;
+  border:none !important;
+}
+
+.border-blue {
+  border-color: #6076bd !important;
 }
 
 .card-img-wrapper {
