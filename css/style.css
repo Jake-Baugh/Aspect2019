@@ -1676,7 +1676,7 @@ transform: translateY(-25%) !important;
 }
 
 .card-row .card {
-  min-height:340px;
+  min-height: 360px;
 }
 
 .card-row-services .card {
