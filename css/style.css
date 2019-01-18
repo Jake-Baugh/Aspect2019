@@ -1682,7 +1682,7 @@ transform: translateY(-25%) !important;
 
 .border-blue {
   border-color: #6076bd !important;
-  min-height:400px;
+  min-height: 520px;
 }
 
 .card-img-wrapper {
