@@ -911,6 +911,10 @@ max-width: 1140px;
   font-family: "Open Sans", sans-serif;
 }
 
+.pb-20 {
+  padding-bottom: 20px;
+}
+
 .mb-10 {
   margin-bottom: 10px;
 }
